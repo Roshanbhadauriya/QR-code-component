@@ -53,3 +53,32 @@ p{
  
 
 }
+@media (max-width:375px){
+
+    #qr-box{
+        min-width: 250px;
+        max-width: 275px;
+        height: 400px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 100%);
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      
+    
+    }
+    
+    #qr-code{
+        
+        width: 90%;
+        border-radius: 10px;
+        margin: 10px;
+    
+    }
+
+}
