@@ -5,7 +5,10 @@
    
 }
 body{
-    margin-top:100px;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
     background-color:   hsl(212, 45%, 89%);
     
 }
@@ -36,10 +39,10 @@ body{
 
 }
 
-h2{
+h1{
 color: hsl(218, 44%, 22%);
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     
     
 }
@@ -57,28 +60,15 @@ p{
 
     #qr-box{
         min-width: 250px;
-        max-width: 275px;
-        height: 400px;
-        display: flex;
-        margin: auto;
-        flex-direction: column;
-        border-radius: 15px;
-        background-color: hsl(0, 0%, 100%);
-        align-items: center;
-        text-align: center;
-        overflow: hidden;
-        padding-top: 10px;
-        padding-bottom: 20px;
-      
+        max-width: 320px;
     
-    }
+      
+}
     
     #qr-code{
         
-        width: 90%;
-        border-radius: 10px;
-        margin: 10px;
-    
+       max-width: 100%;
+        
     }
 
 }
