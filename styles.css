@@ -10,7 +10,7 @@ body{
    align-items: center;
    justify-content: center;
     background-color:   hsl(212, 45%, 89%);
-    
+    overflow: hidden;
 }
 
 #qr-box{
@@ -23,6 +23,7 @@ body{
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     align-items: center;
+    justify-content: center;
     text-align: center;
     overflow: hidden;
     padding-top: 10px;
